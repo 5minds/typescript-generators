@@ -1,0 +1,35 @@
+{
+  "name": "<%= featureNameSnakeCase %>_demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node bin/start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@process-engine-js/bootstrapper": "^2.0.0",
+    "@process-engine-js/bootstrapper_node": "^2.0.0",
+    "@process-engine-js/core": "^2.0.0",
+    "@process-engine-js/core_contracts": "^2.0.0",
+    "@process-engine-js/data_model": "^2.0.0",
+    "@process-engine-js/data_model_contracts": "^2.0.0",
+    "@process-engine-js/datasource_adapter_base": "^2.0.0",
+    "@process-engine-js/datasource_adapter_postgres": "^2.0.0",
+    "@process-engine-js/datastore": "^2.0.0",
+    "@process-engine-js/datastore_http": "^2.0.0",
+    "@process-engine-js/event_aggregator": "^2.0.0",
+    "@process-engine-js/http_extension": "^2.0.0",
+    "@process-engine-js/http_node": "^2.0.0",
+    "@process-engine-js/iam": "^2.0.0",
+    "@process-engine-js/iam_http": "^2.0.0",
+    "@process-engine-js/invocation": "^2.0.0",
+    "@process-engine-js/metadata": "^2.0.0",
+    "@process-engine-js/pki_service": "^2.0.0",
+    "@process-engine-js/security_service": "^2.0.0",
+    "@process-engine-js/validation": "^2.0.0",
+    "addict-ioc": "^2.0.0",
+    "<%= featureNameSnakeCase %>": "^1.0.0",
+    "<%= featureNameSnakeCase %>_http": "^1.0.0"
+  }
+}

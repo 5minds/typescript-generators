@@ -1,0 +1,32 @@
+{
+  "name": "<%= featureNameSnakeCase %>_http_contracts",
+  "publishConfig": {
+    "registry": "https://www.npmjs.com"
+  },
+  "version": "1.0.0",
+  "description": "referencable contracts for components for accessing <%= featureNameLowerCase %> via HTTP",
+  "license": "MIT",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
+  "contributors": [
+    "Sebastian Meier <sebastian.meier@5minds.de>"
+  ],
+  "dependencies": {
+    "@process-engine-js/http_contracts": "^2.0.2"
+  },
+  "devDependencies": {
+    "@process-engine-js/tslint-config": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulptraum": "^2.2.1",
+    "gulptraum-typescript": "^1.0.0",
+    "tsconfig": "^7.0.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "prepare": "npm run build && npm run build-schemas && npm run build-doc",
+    "build-doc": "gulp doc",
+    "build-schemas": "gulp typescript-schema"
+  }
+}

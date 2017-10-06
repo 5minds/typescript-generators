@@ -1,0 +1,13 @@
+{
+  "name": "<%= featureNameSnakeCase %>_stack",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "minstall ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "minstall": "^2.0.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "<%= featureNameSnakeCase %>": "<%= gitSshUrl %>/<%= featureNameSnakeCase %>.git",
+    "<%= featureNameSnakeCase %>_contracts": "<%= gitSshUrl %>/<%= featureNameSnakeCase %>_contracts.git",
+    "<%= featureNameSnakeCase %>_demo": "<%= gitSshUrl %>/<%= featureNameSnakeCase %>_demo.git",
+    "<%= featureNameSnakeCase %>_http": "<%= gitSshUrl %>/<%= featureNameSnakeCase %>_http.git",
+    "<%= featureNameSnakeCase %>_http_contracts": "<%= gitSshUrl %>/<%= featureNameSnakeCase %>_http_contracts.git"
+  }
+}
