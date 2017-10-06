@@ -3,17 +3,17 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-5-minds-typescript using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-5minds-typescript using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-5-minds-typescript
+npm install -g generator-5minds-typescript
 ```
 
 Then generate your new project:
 
 ```bash
-yo 5-minds-typescript
+yo 5minds-typescript
 ```
 
 ## Getting To Know Yeoman
