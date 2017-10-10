@@ -1,5 +1,5 @@
-import {IHttpExtension} from '@process-engine-js/http_contracts';
-import {BaseRouter} from '@process-engine-js/http_node';
+import {IHttpExtension} from '@essential-projects/http_contracts';
+import {BaseRouter} from '@essential-projects/http_node';
 import {I<%= featureNamePascalCase %>Controller, I<%= featureNamePascalCase %>Router} from '<%= featureNameSnakeCase %>_http_contracts';
 
 export class <%= featureNamePascalCase %>Router extends BaseRouter implements I<%= featureNamePascalCase %>Router {

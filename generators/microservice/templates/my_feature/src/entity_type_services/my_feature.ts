@@ -1,5 +1,5 @@
-import {ExecutionContext} from '@process-engine-js/core_contracts';
-import {IDatastoreService, IEntityCollection} from '@process-engine-js/data_model_contracts';
+import {ExecutionContext} from '@essential-projects/core_contracts';
+import {IDatastoreService, IEntityCollection} from '@essential-projects/data_model_contracts';
 import {I<%= featureNamePascalCase %>Entity} from '<%= featureNameSnakeCase %>_contracts';
 
 export class <%= featureNamePascalCase %>EntityTypeService {

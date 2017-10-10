@@ -1,28 +1,28 @@
-const bootstrapperIocModule = require('@process-engine-js/bootstrapper/ioc_module');
-const bootstrapperNodeIocModule = require('@process-engine-js/bootstrapper_node/ioc_module');
+const bootstrapperIocModule = require('@essential-projects/bootstrapper/ioc_module');
+const bootstrapperNodeIocModule = require('@essential-projects/bootstrapper_node/ioc_module');
 const InvocationContainer = require('addict-ioc').InvocationContainer;
 const debug = require('debug')('bootstrapper');
 
 const iocModuleNames = [
-  '@process-engine-js/bootstrapper',
-  '@process-engine-js/bootstrapper_node',
-  '@process-engine-js/core',
-  '@process-engine-js/core_contracts',
-  '@process-engine-js/data_model',
-  '@process-engine-js/data_model_contracts',
-  '@process-engine-js/datasource_adapter_base',
-  '@process-engine-js/datasource_adapter_postgres',
-  '@process-engine-js/datastore',
-  '@process-engine-js/datastore_http',
-  '@process-engine-js/event_aggregator',
-  '@process-engine-js/http_extension',
-  '@process-engine-js/iam',
-  '@process-engine-js/iam_http',
-  '@process-engine-js/invocation',
-  '@process-engine-js/metadata',
-  '@process-engine-js/pki_service',
-  '@process-engine-js/security_service',
-  '@process-engine-js/validation',
+  '@essential-projects/bootstrapper',
+  '@essential-projects/bootstrapper_node',
+  '@essential-projects/core',
+  '@essential-projects/core_contracts',
+  '@essential-projects/data_model',
+  '@essential-projects/data_model_contracts',
+  '@essential-projects/datasource_adapter_base',
+  '@essential-projects/datasource_adapter_postgres',
+  '@essential-projects/datastore',
+  '@essential-projects/datastore_http',
+  '@essential-projects/event_aggregator',
+  '@essential-projects/http_extension',
+  '@essential-projects/iam',
+  '@essential-projects/iam_http',
+  '@essential-projects/invocation',
+  '@essential-projects/metadata',
+  '@essential-projects/pki_service',
+  '@essential-projects/security_service',
+  '@essential-projects/validation',
   '<%= featureNameSnakeCase %>',
   '<%= featureNameSnakeCase %>_http'
 ];

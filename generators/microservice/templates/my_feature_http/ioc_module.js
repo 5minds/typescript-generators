@@ -2,7 +2,7 @@
 
 const <%= featureNamePascalCase %>Router = require('./dist/commonjs/index').<%= featureNamePascalCase %>Router;
 const <%= featureNamePascalCase %>Controller = require('./dist/commonjs/index').<%= featureNamePascalCase %>Controller;
-const routerDiscoveryTag = require('@process-engine-js/core_contracts').RouterDiscoveryTag;
+const routerDiscoveryTag = require('@essential-projects/core_contracts').RouterDiscoveryTag;
 
 function registerInContainer(container) {
 

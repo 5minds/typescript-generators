@@ -4,7 +4,7 @@ const <%= featureNamePascalCase %>Entity = require('./dist/commonjs/index').<%= 
 const <%= featureNamePascalCase %>Service = require('./dist/commonjs/index').<%= featureNamePascalCase %>Service;
 const <%= featureNamePascalCase %>EntityTypeService = require('./dist/commonjs/index').<%= featureNamePascalCase %>EntityTypeService;
 
-const entityDiscoveryTag = require('@process-engine-js/core_contracts').EntityDiscoveryTag;
+const entityDiscoveryTag = require('@essential-projects/core_contracts').EntityDiscoveryTag;
 
 function registerInContainer(container) {
   

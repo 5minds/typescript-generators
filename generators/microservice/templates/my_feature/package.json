@@ -12,13 +12,13 @@
     "Sebastian Meier <sebastian.meier@5minds.de>"
   ],
   "dependencies": {
-    "@process-engine-js/core_contracts": "^2.0.2",
-    "@process-engine-js/data_model_contracts": "^2.0.3",
-    "@process-engine-js/metadata": "^2.0.2",
+    "@essential-projects/core_contracts": "^0.1.0",
+    "@essential-projects/data_model_contracts": "^0.1.0",
+    "@essential-projects/metadata": "^0.1.0",
     "<%= featureNameSnakeCase %>_contracts": "^1.0.0"
   },
   "devDependencies": {
-    "@process-engine-js/tslint-config": "^1.0.1",
+    "@essential-projects/tslint-config": "^0.1.0",
     "gulp": "^3.9.1",
     "gulptraum": "^2.2.1",
     "gulptraum-typescript": "^1.0.0",
