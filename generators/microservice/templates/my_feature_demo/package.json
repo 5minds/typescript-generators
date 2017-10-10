@@ -10,6 +10,7 @@
   "dependencies": {
     "@essential-projects/bootstrapper": "^0.1.0",
     "@essential-projects/bootstrapper_node": "^0.1.0",
+    "@essential-projects/caching": "^0.1.1",
     "@essential-projects/core": "^0.1.0",
     "@essential-projects/core_contracts": "^0.1.0",
     "@essential-projects/data_model": "^0.1.0",
