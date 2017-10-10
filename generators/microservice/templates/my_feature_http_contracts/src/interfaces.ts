@@ -1,4 +1,4 @@
-import {IHttpRouter} from '@process-engine-js/http_contracts';
+import {IHttpRouter} from '@essential-projects/http_contracts';
 
 export interface I<%= featureNamePascalCase %>Router extends IHttpRouter {
 

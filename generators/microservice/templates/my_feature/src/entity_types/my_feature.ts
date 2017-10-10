@@ -1,6 +1,6 @@
-import {ClaimActionType, ExecutionContext, IEntity, IInheritedSchema, IQueryClause, SchemaAttributeType} from '@process-engine-js/core_contracts';
-import {Entity, EntityCollection, EntityDependencyHelper, IEntityType, IPropertyBag} from '@process-engine-js/data_model_contracts';
-import {requiresClaim, schemaAttribute} from '@process-engine-js/metadata';
+import {ClaimActionType, ExecutionContext, IEntity, IInheritedSchema, IQueryClause, SchemaAttributeType} from '@essential-projects/core_contracts';
+import {Entity, EntityCollection, EntityDependencyHelper, IEntityType, IPropertyBag} from '@essential-projects/data_model_contracts';
+import {requiresClaim, schemaAttribute} from '@essential-projects/metadata';
 import {I<%= featureNamePascalCase %>Entity, IMyOtherProperty} from '<%= featureNameSnakeCase %>_contracts';
 
 @requiresClaim({

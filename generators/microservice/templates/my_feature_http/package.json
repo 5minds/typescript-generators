@@ -12,13 +12,13 @@
     "Sebastian Meier <sebastian.meier@5minds.de>"
   ],
   "dependencies": {
-    "@process-engine-js/http_contracts": "^2.0.0",
-    "@process-engine-js/http_node": "^2.0.0",
+    "@essential-projects/http_contracts": "^0.1.0",
+    "@essential-projects/http_node": "^0.1.0",
     "<%= featureNameSnakeCase %>_contracts": "^1.0.0",
     "<%= featureNameSnakeCase %>_http_contracts": "^1.0.0"
   },
   "devDependencies": {
-    "@process-engine-js/tslint-config": "^1.0.1",
+    "@essential-projects/tslint-config": "^0.1.0",
     "@types/express": "^4.0.37",
     "gulp": "^3.9.1",
     "gulptraum": "^2.2.1",
