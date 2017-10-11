@@ -8,6 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-5minds-typescript using 
 ```bash
 npm install -g yo
 npm install -g @5minds/generator-5minds-typescript
+npm install -g gulp
 ```
 
 Then generate your new project:
