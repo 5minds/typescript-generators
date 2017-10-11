@@ -84,10 +84,17 @@ module.exports = class extends Generator {
         featureNameSnakeCase: this.props.featureNameSnakeCase
       }
     );
-
+    
     this.fs.copyTpl(
       this.templatePath('my_feature_demo/config/development/application'),
       this.destinationPath(`${this.props.featureNameSnakeCase}_demo/config/development/application`), {
+        featureNamePascalCase: this.props.featureNamePascalCase,
+        featureNameSnakeCase: this.props.featureNameSnakeCase
+      }
+    );
+    this.fs.copyTpl(
+      this.templatePath('my_feature_demo/config/development/caching'),
+      this.destinationPath(`${this.props.featureNameSnakeCase}_demo/config/development/caching`), {
         featureNamePascalCase: this.props.featureNamePascalCase,
         featureNameSnakeCase: this.props.featureNameSnakeCase
       }

@@ -6,6 +6,7 @@ const debug = require('debug')('bootstrapper');
 const iocModuleNames = [
   '@essential-projects/bootstrapper',
   '@essential-projects/bootstrapper_node',
+  '@essential-projects/caching',
   '@essential-projects/core',
   '@essential-projects/core_contracts',
   '@essential-projects/data_model',
