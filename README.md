@@ -13,7 +13,7 @@ npm install -g @5minds/generator-5minds-typescript
 Then generate your new project:
 
 ```bash
-yo 5minds-typescript:microservice
+yo @5minds/5minds-typescript:microservice
 ```
 
 ## Getting To Know Yeoman
